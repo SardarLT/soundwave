@@ -1,0 +1,128 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 14rem;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    &__name {
+        margin-left: 1.6rem;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #adadad;
+}
+
+.nav {
+    &__list {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        padding: 1.6rem;
+        font-size: 2rem;
+    }
+}
+
+.btn {
+    color: white;
+    background-color: #1762A7;
+    font-size: 1.5rem;
+    padding: 1.2rem 2.4rem;
+    border-radius: 8px;
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+.section-main {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;    
+    flex-grow: 1;
+
+
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 1rem;
+        align-self: center;
+    }
+}
+
+.title {
+    font-weight: 500;
+    font-size: 5.8rem;
+    margin-bottom: 1.6rem;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-size: 2.3rem;
+    margin-bottom: 3.2rem;
+    font-weight: 500;
+}
+
+.index_img_wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.index_img {
+    background-image: url(../img/landing-page-girl.png);
+    flex-grow: 1;
+    max-height: 70vh;   
+    min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+    background-color: #2F303A;
+    color: white;
+    font-size: 2.4rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}

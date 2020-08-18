@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  min-height: 100vh;
+  background-color: #2F303A;
+  color: white;
+  font-size: 2.4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.full-height-grow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 14rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__name {
+  margin-left: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #adadad;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  padding: 1.6rem;
+  font-size: 2rem;
+}
+
+.btn {
+  color: white;
+  background-color: #1762A7;
+  font-size: 1.5rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.section-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.section-main__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 1rem;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 5.8rem;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+}
+
+.subtitle {
+  font-size: 2.3rem;
+  margin-bottom: 3.2rem;
+  font-weight: 500;
+}
+
+.index_img_wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.index_img {
+  background-image: url(../img/landing-page-girl.png);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-height: 70vh;
+  min-width: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+/*# sourceMappingURL=main.css.map */
