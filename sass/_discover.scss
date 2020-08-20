@@ -1,0 +1,92 @@
+.footer>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background-color: #202027;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav ul {
+    display: flex;
+    align-items: center;
+    // padding-top: 3px;
+    margin: 0;
+
+    li {
+        font-weight: bold;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+.discover-main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        width: 30vw;
+        max-width: 350px;
+        height: auto;
+    }
+    .img-wrapper {
+        margin-left: 3rem;
+
+    }
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.icon-section {
+    display: flex;
+    
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    margin: .8rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(32, 32, 39);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    margin-bottom: 3.2rem;
+    font-size: 1.9rem;
+    img {
+        width: 4rem;
+        height: 4rem;
+        z-index: 1;
+        
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .discover-main .img-wrapper {
+        display: none;   
+    }
+
+    .discover-main{
+        margin: 5rem;
+    }
+
+    .cta {
+        justify-content: center;
+    }
+
+    .icon-section, .title {
+        align-self: center;
+    }
+}
