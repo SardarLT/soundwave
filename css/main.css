@@ -349,4 +349,147 @@ a:hover {
         align-self: center;
   }
 }
+
+.c1 {
+  position: absolute;
+  width: 35vw;
+  height: 35vw;
+  bottom: 0%;
+  z-index: -1;
+  left: 0;
+}
+
+.c1::before {
+  content: '';
+  background-color: rgba(188, 58, 128, 0.1);
+  -webkit-transform: translate(-20%);
+          transform: translate(-20%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.c2 {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  top: 0%;
+  z-index: -1;
+  left: 20vw;
+  overflow: hidden;
+}
+
+.c2::before {
+  content: '';
+  background-color: rgba(52, 87, 178, 0.1);
+  position: absolute;
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.join-title {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 6.2rem;
+  margin: 0;
+}
+
+.special-accent {
+  color: #BC3A80;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #2180d8;
+}
+
+.join-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.join-form {
+  width: 50vw;
+  max-width: 50%;
+  padding: 3.2rem 4.8rem;
+  border-radius: 2rem;
+  background-color: #202027;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 3.2rem;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+
+.input-group input {
+  outline: none;
+  background: none;
+  border: 1px solid #2e3852;
+  font-size: 2rem;
+  padding: .8rem;
+  color: inherit;
+  border-radius: .5rem;
+}
+
+.input-group input:focus {
+  border-color: #596ad0;
+}
+
+.input-group:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .join-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .join-form {
+    width: 80vw;
+    max-width: inherit;
+    margin: 2.5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
